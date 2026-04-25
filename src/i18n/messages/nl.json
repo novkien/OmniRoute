@@ -1643,6 +1643,7 @@
     "errorOccurred": "Er is een fout opgetreden. Probeer het opnieuw.",
     "modelStatus": "Modelstatus",
     "showConfiguredOnly": "Configured only",
+    "searchProviders": "Zoekaanbieders...",
     "allModelsOperational": "Alle modellen operationeel",
     "modelsWithIssues": "{count} model(len) met problemen",
     "allModelsNormal": "Alle modellen reageren normaal.",
