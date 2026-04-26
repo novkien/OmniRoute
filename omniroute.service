@@ -1,0 +1,18 @@
+[Unit]
+Description=OmniRoute - Smart AI Router
+After=network.target
+
+[Service]
+ExecStart=/home/jarvis/.nvm/versions/node/v24.15.0/bin/node --max-old-space-size=512 /home/jarvis/omniroute/OmniRoute/.next/standalone/server.js
+Restart=always
+RestartSec=5
+WorkingDirectory=/home/jarvis/.omniroute
+Environment=PORT=20128
+Environment=API_PORT=20128
+Environment=DASHBOARD_PORT=20128
+Environment=HOSTNAME=0.0.0.0
+Environment=NODE_ENV=production
+Environment=DATA_DIR=/home/jarvis/.omniroute
+
+[Install]
+WantedBy=default.target
